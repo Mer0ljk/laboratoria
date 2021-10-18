@@ -100,7 +100,7 @@ public class Main {
     // zad 8
     public static boolean trojkat(int Ta, int Tb, int Tc)
     {
-        if( Ta == 0 || Tb == 0 || Tc == 0)
+        if( Ta <= 0 || Tb <= 0 || Tc <= 0)
         {
             return false;
         }
