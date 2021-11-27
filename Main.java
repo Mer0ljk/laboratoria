@@ -34,5 +34,7 @@ public class Main {
         System.out.println("Srednica: " + kolo1.getSrednica());
         System.out.println("Promien: " + kolo1.getPromien());
         System.out.println("Punkt w srodku: " + kolo1.wSrodku(2,4));
+        System.out.println("Kolo na prostokacie o = 4 i b = 5: " + Okrag.opisany(4, 5));
+        System.out.println("Kolo w kwadracie o a = 6: " + Okrag.wpisany(6));
     }
 }
